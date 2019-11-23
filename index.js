@@ -3,4 +3,4 @@ const path = require("path");
 
 let {platform} = process;
 
-module.exports = require(path.join(__dirname, `build/Debug/addon-${platform}.node`));
+module.exports = require(path.join(__dirname, `build/Release/addon-${platform}.node`));
