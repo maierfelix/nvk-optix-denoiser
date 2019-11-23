@@ -1,5 +1,5 @@
 {
-  "name": "node-optix-denoiser",
+  "name": "nvk-optix-denoiser",
   "main": "index.js",
   "gypfile": false,
   "version": "0.0.1",
@@ -7,15 +7,14 @@
   "config": {},
   "scripts": {
     "build": "node ./build.js",
-    "test": "node --experimental-modules test.mjs"
+    "test": "node --experimental-modules example/index.mjs"
   },
   "devDependencies": {
     "ncp": "^2.0.0",
-    "node-addon-api": "^1.7.1"
+    "node-addon-api": "^1.7.1",
+    "fast-png": "^5.0.1"
   },
   "dependencies": {
-    "@cwasm/lodepng": "^0.1.1",
-    "fast-png": "^5.0.1",
     "nvk": "file:../node-vulkan",
     "nvk-essentials": "^0.1.2"
   },
