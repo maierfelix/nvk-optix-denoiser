@@ -2,6 +2,11 @@
 
 Bindings of NVIDIA's Optix Denoiser for [node-vulkan](https://github.com/maierfelix/nvk). Allows to share VkBuffers between Vulkan and the Optix Denoiser for real-time denoising.
 
+# Information
+
+You need the latest NVIDIA driver, as this project uses Optix 7 which is fully integrated into the driver.
+
+Also at the moment, you have to use the node-vulkan build from the repository as a possible bug in the Vulkan specification is currently blocking me to update the package.
 
 # Screenshots
 
