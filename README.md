@@ -23,7 +23,7 @@ Also at the moment, you have to use the node-vulkan build from the repository as
 | width | *Number* | Width of the input to operate |
 | height | *Number* | Height of the input to operate |
 
-Creates a new instance of the denoiser with the desired with and height.
+Creates a new instance of the denoiser with the desired width and height.
 
 
 ### denoiser.destroy
