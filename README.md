@@ -14,6 +14,12 @@ Also at the moment, you have to use the node-vulkan build from the repository as
 
 <a><img src="https://i.imgur.com/Od0rGJv.png" height="282"></a>
 
+# Installation
+
+````
+npm install nvk-optix-denoiser
+````
+
 # API
 
 ### denoiser.create
